@@ -81,4 +81,6 @@ Go to your "Angular folder", and in the CLI type:
 3. `npm start`
 4. Check your http://localhost:4200/
 
+Thanks for the help to [Victor Robles](https://victorroblesweb.es/)
+
 
