@@ -1,0 +1,47 @@
+<div class="col-md-12">
+	
+	<div class="loader" *ngIf="loading == 'show'">
+		<img src="assets/img/loader.gif" />
+	</div>
+
+	<div class="col-md-12" *ngIf="task">
+		<h3>{{task.title}}</h3>
+		<hr/>
+		<div class="panel panel-default task-data">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				Task created by: <strong>{{task.users.name +' '+task.users.surname}}</strong><br>
+				{{task.createdAt.timestamp | generateDate }}
+				</h3>
+			</div>
+			<div class="panel-body">
+				{{task.description}}
+			</div>
+		</div>
+		<a href="#deleteModal" role="button" class="btn btn-danger" data-toggle="modal">Borrar</a>
+
+		<div id="deleteModal" class="modal fade">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title">Delete this task?</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <p>Are you going to delete the task permanently?</p>
+		      </div>
+		      <div class="modal-footer">
+		        
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+		        <button (click)=deleteTask(task.id) data-dismiss="modal" type="button" class="btn btn-primary">Yes</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
+	</div>
+</div>
+

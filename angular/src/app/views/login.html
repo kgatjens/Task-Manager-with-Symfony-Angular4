@@ -1,0 +1,27 @@
+<div class="col-md-12">
+	<h3>{{title}}</h3>
+
+	<div class="identity-alert alert alert-success" *ngIf="identity && identity.sub">
+		Welcome {{identity.email}}!
+	</div>
+
+	<div class="identity-alert alert alert-danger" *ngIf="identity && identity.data">
+		Wrong email or password!
+	</div>
+
+	<form #loginForm="ngForm" (ngSubmit)="onSubmit()" class="col-md-7 no-padding">
+		<p>
+			<label>Email:</label>
+			<input type="email" name="email" class="form-control" #email="ngModel" [(ngModel)] = "user.email" required />
+			<span *ngIf="!email.valid && email.touched">Not valid email</span>
+		</p>
+		<p>
+			<label>Password:</label>
+			<input type="password" name="password" class="form-control" #password="ngModel" [(ngModel)]="user.password" required />
+			<span *ngIf="!password.valid && password.touched">Not valid password</span>
+
+		</p>
+		<input type="submit" value="Entrar" class="btn btn-primary" [disabled]="!loginForm.form.valid" />
+	</form>
+			
+</div>

@@ -1,0 +1,37 @@
+<div class="col-md-12">
+	<h3>{{title}}</h3>
+
+	<div class="alert alert-success" *ngIf="status == 'success'">
+		Registrated succesfully
+		<a [routerLink]="['/login']">Login</a>
+	</div>
+
+	<div class="alert alert-danger" *ngIf="status == 'error'">
+		Registration error!
+	</div>
+
+	<form #registerForm="ngForm" (ngSubmit)="onSubmit(); registerForm.reset();" class="col-md-7">
+		<p>
+			<label>Nombe</label>
+			<input type="text"  class="form-control" #name="ngModel" [(ngModel)]="user.name" name="name" required />
+			<span *ngIf="!name.valid && name.touched">Not valid name</span>
+		</p>
+		<p>
+			<label>Apellidos</label>
+			<input type="text"  class="form-control" #surname="ngModel" [(ngModel)]="user.surname" name="surname" required />
+			<span *ngIf="!surname.valid && surname.touched">Not valid surname</span>
+		</p>
+		<p>
+			<label>Email</label>
+			<input type="text"  class="form-control" #email="ngModel" [(ngModel)]="user.email" name="email" required />
+			<span *ngIf="!email.valid && email.touched">Not valid email</span>
+		</p>
+		<p>
+			<label>Password</label>
+			<input type="password"  class="form-control" #password="ngModel" [(ngModel)]="user.password" name="password" required />
+			<span *ngIf="!password.valid && password.touched">Not valid password</span>
+		</p>
+		<input type="submit"  class="btn btn-success" value="Register" [disabled]="!registerForm.form.valid"/>
+
+	</form>
+</div>

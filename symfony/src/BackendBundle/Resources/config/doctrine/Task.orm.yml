@@ -1,0 +1,57 @@
+BackendBundle\Entity\Task:
+    type: entity
+    table: tasks
+    indexes:
+        fk_task_users_idx:
+            columns:
+                - users_id
+    id:
+        id:
+            type: integer
+            nullable: false
+            options:
+                unsigned: true
+            id: true
+            generator:
+                strategy: IDENTITY
+    fields:
+        title:
+            type: string
+            nullable: false
+            length: 25
+            options:
+                fixed: false
+                default: ''
+        description:
+            type: string
+            nullable: true
+            length: 100
+            options:
+                fixed: false
+        status:
+            type: string
+            nullable: false
+            length: 10
+            options:
+                fixed: false
+                default: ''
+        createdAt:
+            type: datetime
+            nullable: false
+            column: created_at
+        updatedAt:
+            type: datetime
+            nullable: true
+            column: updated_at
+    oneToOne:
+        users:
+            targetEntity: User
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                users_id:
+                    referencedColumnName: id
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

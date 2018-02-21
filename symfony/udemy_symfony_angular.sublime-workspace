@@ -1,0 +1,1239 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"na",
+				"navbar"
+			],
+			[
+				"app",
+				"appRoutingProviders\talias"
+			],
+			[
+				"Reg",
+				"RegisterComponent\talias"
+			],
+			[
+				"Lo",
+				"LoginComponent\talias"
+			],
+			[
+				"con",
+				"console\tvar"
+			],
+			[
+				"templa",
+				"templateUrl\tproperty"
+			],
+			[
+				"f",
+				"filter"
+			],
+			[
+				"em",
+				"empty"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"use",
+				"user_id"
+			],
+			[
+				"su",
+				"sub"
+			],
+			[
+				"p",
+				"password"
+			],
+			[
+				"pa",
+				"ng-pluralize\tAngularJS"
+			],
+			[
+				"id",
+				"identity"
+			],
+			[
+				"au",
+				"authCheck"
+			],
+			[
+				"crea",
+				"createdAt"
+			],
+			[
+				"de",
+				"decoded"
+			],
+			[
+				"get",
+				"getHash"
+			],
+			[
+				"s",
+				"signup"
+			],
+			[
+				"ema",
+				"emailConstraint"
+			],
+			[
+				"ser",
+				"serialize"
+			],
+			[
+				"user",
+				"userRepo"
+			],
+			[
+				"scop",
+				"$scope\tAngularJS"
+			],
+			[
+				"ng-cl",
+				"ng-click\tAngularJS"
+			],
+			[
+				"a",
+				"authordata"
+			],
+			[
+				"style",
+				"stylesheet"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"W",
+				"width"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"Sans",
+				"OpenSans"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"compon",
+				"componentWillUnmount\t Life Cycle"
+			],
+			[
+				"sho",
+				"shouldComponentUpdate\t Life Cycle"
+			],
+			[
+				"componentW",
+				"componentWillReceiveProps\t Life Cycle"
+			],
+			[
+				"ren",
+				"render()\tReactDOM"
+			],
+			[
+				"cons",
+				"console.log"
+			],
+			[
+				"compo",
+				"componentWillMount\t Life Cycle"
+			],
+			[
+				"pro",
+				"props\tReact: this.props."
+			],
+			[
+				"txt",
+				"txt2"
+			],
+			[
+				"Re",
+				"React.PropTypes.number"
+			],
+			[
+				"ad",
+				"ad_position"
+			],
+			[
+				"tem",
+				"term_id"
+			],
+			[
+				"te",
+				"term_id"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"fo",
+				"foreach\tforeach …"
+			],
+			[
+				"her",
+				"hero_from_page_info"
+			],
+			[
+				"sub1",
+				"sub1_value"
+			],
+			[
+				"strt",
+				"strtolower"
+			],
+			[
+				"co",
+				"counter"
+			],
+			[
+				"fi",
+				"field"
+			],
+			[
+				"unse",
+				"unset"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"bo",
+				"body3"
+			],
+			[
+				"m",
+				"match"
+			],
+			[
+				"week",
+				"weeks"
+			],
+			[
+				"pre",
+				"press_release_file"
+			],
+			[
+				"_",
+				"_SERVER"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"c",
+				"child"
+			],
+			[
+				"array_m",
+				"array_merge"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"w",
+				"week_info"
+			],
+			[
+				"v",
+				"variables"
+			],
+			[
+				"prnt",
+				"print_r"
+			],
+			[
+				"li",
+				"link"
+			],
+			[
+				"ca",
+				"call_view"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"ra",
+				"raw_val"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"or",
+				"original_field_name"
+			],
+			[
+				"ul",
+				"url"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"prin",
+				"print_r"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/AppBundle/Controller/DefaultController.php",
+			"settings":
+			{
+				"buffer_size": 3035,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Library/WebServer/Documents/symfony/udemy/angular/src/index.html",
+			"settings":
+			{
+				"buffer_size": 354,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/AppBundle/Controller/TaskController.php",
+			"settings":
+			{
+				"buffer_size": 7631,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<div class=\"col-md-12\">\n\t<h3>{{title}}</h3>\n\n\t<form #loginForm=\"ngForm\" (ngSubmit)=\"onSubmit()\" class=\"col-md-7 no-padding\">\n\t\t<p>\n\t\t\t<label>Email:</label>\n\t\t\t<input type=\"email\" name=\"email\" class=\"form-control\" #email=\"ngModel\" [(ngModel)] = \"user.email\" required />\n\t\t\t<span *ngIf=\"!email.valid && email.touched\">Not valid email</span>\n\t\t</p>\n\t\t<p>\n\t\t\t<label>Password:</label>\n\t\t\t<input type=\"password\" name=\"password\" class=\"form-control\" #password=\"ngModel\" [(ngModel)]=\"user.password\" required />\n\t\t\t<span *ngIf=\"!password.valid && password.touched\">Not valid password</span>\n\n\t\t</p>\n\t\t<input type=\"submit\" value=\"Entrar\" class=\"btn btn-primary\" [disabled]=\"!loginForm.form.\" />\n\t</form>\n\t\t\t\n</div>",
+			"file": "/Library/WebServer/Documents/symfony/udemy/angular/src/app/views/login.html",
+			"file_size": 709,
+			"file_write_time": 131617145680000000,
+			"settings":
+			{
+				"buffer_size": 704,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Library/WebServer/Documents/symfony/udemy/angular/src/assets/css/styles.css",
+			"settings":
+			{
+				"buffer_size": 110,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Library/WebServer/Documents/symfony/udemy/angular/src/app/components/login.component.ts",
+			"settings":
+			{
+				"buffer_size": 564,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Library/WebServer/Documents/symfony/udemy/angular/src/app/app.component.html",
+			"settings":
+			{
+				"buffer_size": 1608,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 187.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"boxy",
+				"Boxy Theme: Activation"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"insa",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			]
+		],
+		"width": 431.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Library/WebServer/Documents/symfony/site1/my_project",
+		"/Applications/MAMP/htdocs/gl_public",
+		"/Library/WebServer/Documents/symfony/udemy/angular/src",
+		"/Library/WebServer/Documents/symfony/udemy/angular/src/app",
+		"/Library/WebServer/Documents/symfony/udemy/angular/src/app/components",
+		"/Library/WebServer/Documents/symfony/udemy/angular/src/app/views"
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/gl_public/wp-content/themes/Divi/includes/builder/main-structure-elements.php",
+		"/Applications/MAMP/htdocs/gl_public/wp-content/plugins/divi-builder/includes/builder/frontend-builder/assets/css/divi-builder-style.css",
+		"/Applications/MAMP/htdocs/gl_public/wp-content/themes/gorilla-logic-1/style.css",
+		"/Library/WebServer/Documents/symfony/udemy/angular/src/app/components/login.component.ts",
+		"/Library/WebServer/Documents/symfony/udemy/angular/src/app/components/register.component.ts",
+		"/Library/WebServer/Documents/symfony/udemy/angular/src/app/app.routing.ts",
+		"/Library/WebServer/Documents/symfony/udemy/angular/.angular-cli.json",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/src/AppBundle/Resources/config/routing/task.yml",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/web/app_dev.php",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/web/app.php",
+		"/Library/WebServer/Documents/symfony/udemy/angular/src/app/app.module.ts",
+		"/Library/WebServer/Documents/symfony/udemy/angular/src/index.html",
+		"/Library/WebServer/Documents/symfony/udemy/angular/node_modules/jquery/dist/jquery.min.js",
+		"/Library/WebServer/Documents/symfony/udemy/angular/node_modules/bootstrap/dist/js/bootstrap.min.js",
+		"/Library/WebServer/Documents/symfony/udemy/angular/src/app/views/register.html",
+		"/Library/WebServer/Documents/symfony/udemy/angular/package.json",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/src/AppBundle/Controller/UserController.php",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/app/config/config.yml",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/app/AppKernel.php",
+		"/Users/kennethb/Desktop/video modals headers fix.txt",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/src/AppBundle/Services/JwtAuth.php",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/src/BackendBundle/Resources/config/doctrine/Task.orm.yml",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/src/AppBundle/Resources/config/routing.yml",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/app/config/routing.yml",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/src/AppBundle/Resources/config/routing/default.yml",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/src/AppBundle/Resources/config/routing/user.yml",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/src/BackendBundle/Resources/config/doctrine/User.orm.yml",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/src/BackendBundle/Entity/User.php",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/app/config/services.yml",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/src/AppBundle/Services/Helpers.php",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/src/BackendBundle/Controller/DefaultController.php",
+		"/Users/kennethb/Downloads/bbdd/base_de_datos.sql",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/vendor/doctrine/doctrine-bundle/DependencyInjection/DoctrineExtension.php",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/vendor/doctrine/doctrine-bundle/DependencyInjection/Configuration.php",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/vendor/doctrine/doctrine-bundle/DependencyInjection/Compiler/EntityListenerPass.php",
+		"/Library/WebServer/Documents/symfony/site1/my_project/vendor/autoload.php",
+		"/Library/WebServer/Documents/symfony/site1/my_project/src/Controller/LuckyController.php",
+		"/Library/WebServer/Documents/symfony/site1/my_project/templates/base.html.twig",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/var/SymfonyRequirements.php",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/composer.json",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/src/AppBundle/Controller/DefaultController.php",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/app/config/routing_dev.yml",
+		"/Library/WebServer/Documents/symfony/site1/my_project/src/Controller/PostController.php",
+		"/Library/WebServer/Documents/symfony/site1/my_project/webpack.config.js",
+		"/Library/WebServer/Documents/symfony/site1/my_project/assets/css/app.scss",
+		"/Library/WebServer/Documents/symfony/site1/my_project/assets/js/file2.js",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/vendor/symfony/monolog-bundle/DependencyInjection/Configuration.php",
+		"/Library/WebServer/Documents/symfony/site1/my_project/src/Service/SomeService.php",
+		"/Library/WebServer/Documents/symfony/site1/my_project/templates/lucky/number.html.twig",
+		"/Library/WebServer/Documents/symfony/site1/my_project/assets/css/main.css",
+		"/Library/WebServer/Documents/symfony/site1/my_project/public/build/app.js",
+		"/Users/kennethb/Desktop/1.html",
+		"/private/etc/apache2/httpd.conf",
+		"/usr/local/php5-7.2.0-20171215-181251/lib/php.ini",
+		"/usr/local/php5-7.0.18-20170506-095200/lib/php.ini",
+		"/usr/local/php5-7.2.0-20171215-181251/lib/php.ini-development",
+		"/usr/local/php5-7.2.0-20171215-181251/lib/php.ini-recommended",
+		"/Users/kennethb/Downloads/monolog-bundle-3.1.2/DependencyInjection/Configuration.php",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/var/cache/dev/appDevDebugProjectContainer.php",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/var/cache/dev/appDevDebugProjectContainer.xml",
+		"/Library/WebServer/Documents/symfony/udemy/symfony/app/config/parameters.yml",
+		"/Library/WebServer/Documents/symfony/udemy/.DS_Store",
+		"/Library/WebServer/Documents/symfony/site1/my_project/public/css/main.css",
+		"/Library/WebServer/Documents/symfony/site1/my_project/assets/js/app.js",
+		"/Library/WebServer/Documents/symfony/site1/my_project/public/index.php",
+		"/Library/WebServer/Documents/symfony/site1/my_project/config/routes.yaml",
+		"/private/etc/php.ini.default",
+		"/Users/kennethb/Sites/loopback_nodeJS/lb+mgdb+angular1/student/client/css/style.css",
+		"/Users/kennethb/Sites/loopback_nodeJS/lb+mgdb+angular1/student/.bowerrc",
+		"/Applications/MAMP/htdocs/gl_public/wp-content/themes/gorilla-logic-1/template-parts/page/blog-metadata.php",
+		"/Applications/MAMP/htdocs/gl_public/wp-content/themes/gorilla-logic-1/functions.php",
+		"/Applications/MAMP/htdocs/gl_public/wp-content/plugins/co-authors-plus/template-tags.php",
+		"/Applications/MAMP/htdocs/gl_public/wp-content/plugins/divi-builder/includes/builder/functions.php",
+		"/Applications/MAMP/htdocs/gl_public/wp-includes/author-template.php",
+		"/Applications/MAMP/htdocs/gl_public/wp-content/themes/Divi/style.dev.css",
+		"/Applications/MAMP/htdocs/gl_public/wp-content/themes/gorilla-logic-1/ds-script.js",
+		"/Applications/MAMP/htdocs/gl_public/wp-content/themes/gorilla-logic-1/ga-manual-events-tracking.js",
+		"/Applications/MAMP/htdocs/gl_public/wp-content/themes/gorilla-logic-1/better-search-template.php",
+		"/Applications/MAMP/htdocs/gl_public/wp-content/plugins/better-search/better-search.php",
+		"/Applications/MAMP/htdocs/gl_public/wp-content/themes/gorilla-logic-1/page-blog.php",
+		"/Users/kennethb/Sites/loopback_nodeJS/lb+react+mysql_clean/package.json",
+		"/Applications/MAMP/htdocs/gl_public/wp-content/themes/gorilla-logic-1/header.php",
+		"/Users/kennethb/Desktop/catamaran.txt",
+		"/Applications/MAMP/htdocs/gl_public/wp-config.php",
+		"/Users/kennethb/Desktop/GW-85/css_original_better_search.txt",
+		"/Users/kennethb/Desktop/GW-120/404.php",
+		"/Applications/MAMP/htdocs/gl_public/wp-content/themes/gorilla-logic-1/404.php",
+		"/Users/kennethb/Desktop/restAPI_drupal_links.txt",
+		"/Applications/MAMP/htdocs/gl_public/wp-content/plugins/better-search/includes/general-template.php",
+		"/Applications/MAMP/htdocs/gl_public/wp-content/themes/Divi/header.php",
+		"/Users/kennethb/Desktop/GW-114/<table class=\"holidays_table\">.txt",
+		"/Users/kennethb/Desktop/styles_13set5pm.txt",
+		"/Applications/MAMP/htdocs/gl_public/wp-content/themes/Divi/js/theme-customizer.js",
+		"/Applications/MAMP/htdocs/gl_public/wp-content/themes/Divi/js/custom.js",
+		"/Users/kennethb/Desktop/GW-85/better-search-template.php",
+		"/Applications/MAMP/htdocs/gl_public/wp-content/themes/gorilla-logic-1/includes/no-results.php",
+		"/Users/kennethb/Desktop/GW-85/style.css",
+		"/Users/kennethb/Desktop/GW-85/functions.php",
+		"/Users/kennethb/Desktop/GW-85/no-results.php",
+		"/Users/kennethb/Desktop/GW-96/module_code_html.txt",
+		"/Users/kennethb/Desktop/DEMO.txt",
+		"/Users/kennethb/Desktop/videos_json_cfp.txt",
+		"/Applications/MAMP/htdocs/gl_public/.gitignore",
+		"/Users/kennethb/Desktop/d8_db.sql",
+		"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project/sites/all/themes/cfp/template.php",
+		"/Users/kennethb/Sites/VM_D8_Vagrant_oficial/project/themes/boots_theme/config/install/boots_theme.settings.yml",
+		"/Users/kennethb/Sites/VM_D8_Vagrant_oficial/project/themes/boots_theme/boots_theme.theme",
+		"/Users/kennethb/Sites/VM_D8_Vagrant_oficial/project/sites/default/services.yml",
+		"/Users/kennethb/Sites/VM_D8_Vagrant_oficial/project/sites/default/default.services.yml",
+		"/Users/kennethb/Sites/VM_D8_Vagrant_oficial/project/themes/boots_theme/templates/page--page_type.html.twig",
+		"/Users/kennethb/Sites/VM_D8_Vagrant_oficial/project/themes/boots_theme/templates/views/views-view-unformatted--all_content--block-1.html.twig",
+		"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project/sites/all/themes/cfp/templates/views/views-view--connections-list-block.tpl.php",
+		"/Users/kennethb/Sites/VM_D8_Vagrant_oficial/project/themes/boots_theme/config/schema/boots_theme.schema.yml",
+		"/Users/kennethb/Sites/VM_D8_Vagrant_oficial/project/themes/boots_theme/boots_theme.libraries.yml",
+		"/Users/kennethb/Sites/VM_D8_Vagrant_oficial/project/themes/boots_theme/boots_theme.info.yml",
+		"/Users/kennethb/Sites/VM_D8_Vagrant_oficial/project/themes/boots_theme/less/bootstrap.less",
+		"/Users/kennethb/Sites/VM_D8_Vagrant_oficial/project/themes/boots_theme/less/component/file.less",
+		"/Users/kennethb/Sites/VM_D8_Vagrant_oficial/README.md",
+		"/Users/kennethb/Sites/VM_D8_Vagrant_oficial/project/themes/boots_theme/templates/page.html.twig",
+		"/Users/kennethb/Sites/VM_D8_Vagrant_oficial/.gitignore",
+		"/Users/kennethb/Sites/VM_D8_Vagrant_oficial/project/themes/boots_theme/css/style.css",
+		"/Users/kennethb/Sites/VM_D8_Vagrant_oficial/project/README.txt",
+		"/Library/WebServer/Documents/drupal8_react/sites/default/settings.php",
+		"/Users/kennethb/Sites/d8_3/default.config.yml",
+		"/Users/kennethb/Sites/VM_D8_Vagrant_oficial/config.yml",
+		"/Users/kennethb/Sites/d8_3/config.yml",
+		"/Users/kennethb/Sites/d8_3/provisioning/templates/dashboard.html.j2",
+		"/Users/kennethb/Sites/VM_D8_Vagrant_oficial/provisioning/templates/dashboard.html.j2"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 192.0,
+		"where_history":
+		[
+			"/Applications/MAMP/htdocs/gl_public",
+			"<open files>",
+			"/Library/WebServer/Documents/symfony/udemy/symfony",
+			"",
+			"site1/",
+			"/Applications/MAMP/htdocs/gl_public/wp-content/",
+			"/Applications/MAMP/htdocs/gl_public/wp-content/themes/gorilla-logic-1",
+			"/Applications/MAMP/htdocs/gl_public/",
+			"/Applications/MAMP/htdocs/gl_public/wp-content",
+			"",
+			"/Users/kennethb/Desktop/INTRANET GL/gorilla-logic-hr-portal",
+			"/Users/kennethb/Sites/VM_D8_Vagrant_oficial",
+			"/Users/kennethb/Sites/d8_3",
+			"/Users/kennethb/Sites/d8_2/drupal-vm",
+			"",
+			"/Library/WebServer/Documents/drupal8_react/",
+			"/Library/WebServer/Documents/react_tuto_new_boston_redux/dev/js",
+			"/Users/kennethb/Sites/cfp_foundation/drupal-cfp-found/drupal-project/backend/project",
+			"/Users/kennethb/Sites/penn-relays/drupal-project/backend/project",
+			"/Users/kennethb/Sites/cfp_foundation/drupal-cfp-found/drupal-project/backend/project",
+			"/Users/kennethb/Sites/oas/oas-components",
+			"/Users/kennethb/Sites/oas/oas-kty",
+			"/Users/kennethb/Sites/oas/oas-components",
+			"/Users/kennethb/Sites/oas/oas-kty",
+			"/Users/kennethb/Sites/penn-relays/drupal-project/backend/project/sites/",
+			"/Users/kennethb/Sites/cfp_foundation/drupal-cfp-found/drupal-project/backend/project",
+			"/Users/kennethb/Sites/oas/oas-ksu",
+			"/Users/kennethb/Sites/oas/oas-mwc",
+			"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project",
+			"/Users/kennethb/Sites/cfp_foundation/drupal-cfp-found/drupal-project/backend/project",
+			"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project/sites",
+			"/Users/kennethb/Sites/penn-relays/drupal-project/backend/project/sites/all/themes",
+			"/Library/WebServer/Documents",
+			"/Users/kennethb/Sites/penn-relays/drupal-project/backend/project/sites/all/",
+			"/Users/kennethb/Sites/penn-relays/drupal-project/backend/project/sites/all/themes/penn",
+			"",
+			"/Users/kennethb/Sites/penn-relays/drupal-project/backend/project",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/drupal-project/backend/project",
+			"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project",
+			"/Users/kennethb/Sites/cfp_foundation",
+			"/Users/kennethb/Sites/penn-relays/drupal-project/backend/project/",
+			"/Users/kennethb/Sites/penn-relays/drupal-project/backend/project/sites/all/themes",
+			"",
+			"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project",
+			"/Users/kennethb/Sites/penn-relays/drupal-project/backend/project",
+			"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project",
+			"/Users/kennethb/Sites/penn-relays/drupal-project/backend/project",
+			"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project",
+			"/Users/kennethb/Sites/penn-relays/drupal-project/backend/project",
+			"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project",
+			"/Users/kennethb/Sites/penn-relays/drupal-project/backend/project",
+			"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project/sites",
+			"/Users/kennethb/Sites/penn-relays/drupal-project/backend/project/sites/all/themes/penn/templates/views",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/drupal-project/backend/project/sites/all/themes/fba",
+			"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project/sites/all/themes/cfp",
+			"/Users/kennethb/Sites/fba_project",
+			"/Users/kennethb/Sites/cfp_foundation/drupal-cfp-found/drupal-project/backend/project",
+			"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project",
+			"/Users/kennethb/Sites/penn-relays/drupal-project/backend/project/sites/all/themes/penn",
+			"/Users/kennethb/Sites/bio_tesis/project",
+			"/Users/kennethb/Sites/penn-relays/drupal-project/backend",
+			"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project",
+			"/Users/kennethb/Sites/cfp_foundation/drupal-cfp-found/drupal-project/backend/project/sites/all",
+			"/Users/kennethb/Sites/cfp_project",
+			"/Users/kennethb/Desktop/SportsLabs/CFP",
+			"/Users/kennethb/Sites/cfp_foundation",
+			"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project/",
+			"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project/sites",
+			"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project/sites/",
+			"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project/sites/all/themes/cfp/",
+			"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project/sites/all/themes/cfp/templates/",
+			"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project/sites/all/themes/cfp/templates/views",
+			"/Users/kennethb/Sites/bio_tesis/",
+			"/Users/kennethb/Sites/bio_tesis/project",
+			"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project/sites/all/themes/cfp",
+			"/Users/kennethb/Sites/fba_project",
+			"/Users/kennethb/Sites/bio_tesis/",
+			"/Users/kennethb/Sites/bio_tesis/puphpet",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/drupal-project/backend/project/sites/all",
+			"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project/sites/all/themes",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/drupal-project/backend/project/sites/all/themes/fba",
+			"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project/sites/all/themes/cfp/templates",
+			"",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/drupal-project/backend/project/sites/all/themes",
+			"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project/sites/all/themes",
+			"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project/sites/all/",
+			"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project/sites/all/themes/cfp",
+			"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project/sites/all/themes/cfp<",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/drupal-project/backend/project/sites/all/themes/fba",
+			"/Users/kennethb/Sites/fba_project",
+			"/Users/kennethb/Sites/cfp_foundation/drupal-cfp-found/drupal-project/backend/project",
+			"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project/sites/all/themes/cfp",
+			"/Users/kennethb/Sites/cfp_foundation/drupal-cfp-found/drupal-project",
+			"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project/sites/",
+			"/Users/kennethb/Sites/cfp_project/drupal-project/backend/project/sites/all/themes/cfp",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/drupal-project/backend/project/sites/all",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/drupal-project/backend/project/sites/allor",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/drupal-project/backend/project/sites/all",
+			"",
+			"/Users/kennethb/Sites/cfp_project",
+			"/Users/kennethb/Sites/bio_tesis",
+			"/Users/kennethb/Sites/fba_project",
+			"/Users/kennethb/Sites/penn-relays/drupal-project/backend/project/sites/all/themes/penn",
+			"/Users/kennethb/Sites/penn-relays-env",
+			"/Users/kennethb/Sites/penn-relays-env2",
+			"/Users/kennethb/Sites/penn-relays/drupal-project/backend",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/drupal-project/backend/project/sites/all/",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/drupal-project/backend/project/sites/all/themes/fba/templates",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/drupal-project/",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/drupal-project/backend/project/",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/drupal-project/backend/project/sites/all/themes/fba",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/drupal-project/",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/drupal-project/backend/project/sites/all/themes/fba",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/drupal-project/backend/",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/drupal-project/backend/project/sites/all/modules/contrib/video_embed_field",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/drupal-project/backend/",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/drupal-project/backend/project/sites/all/themes/bootstrap",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/drupal-project/backend",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/backend/",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/backend/project/sites/all/themes/bootstrap",
+			"",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/backend/project/sites/all/themes/bootstrap/templates",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/backend/project/sites/all/themes/bootstrap",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/backend/project/sites/all/themes",
+			"/Users/kennethb/Sites/",
+			"/Users/kennethb/Sites/fba_project/drupal-fba",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/backend/project/",
+			"/Users/kennethb/Sites/fba_project/drupal-fba/backend/project/modules"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"bg_img_2",
+			"et_pb_section_5",
+			"bluebg",
+			"GL_Logo_Primary_Wht_500.png",
+			"tog",
+			"togl",
+			"css.map",
+			"style",
+			"sty",
+			"LoginComponent",
+			"login",
+			"register",
+			"chiles",
+			"cli",
+			"flus",
+			"User(",
+			"set",
+			"auth",
+			"iden",
+			"failed",
+			"fail",
+			"mejs_5453628985524672_html5",
+			"#et-top-navigation .menu-item",
+			"#mobile_menu .menu-item-242",
+			"#mobile_menu .menu-item-242, #mobile_menu .menu-item-241",
+			"#mobile_menu .menu-item-242, #mobile_menu .menu-item-241, #mobile_menu .menu-item-243, #mobile_menu .menu-item-6372",
+			"create",
+			"authorization",
+			"autho",
+			"request",
+			"contru",
+			"login",
+			"createdAt",
+			"entity_manage",
+			"Task",
+			"memory_li",
+			"memory_limit",
+			"memory",
+			"memory_limit",
+			"256",
+			"max_execution_time",
+			"file_uploads",
+			"memory_limit",
+			"post_max_size",
+			"upload_max_filesize",
+			"256",
+			"memory",
+			"memory_limit",
+			"memory",
+			"memory_limit",
+			"fingers_crossed",
+			"127.0.0.1:8889",
+			"jquery",
+			"sess",
+			"version",
+			"timezone",
+			"time",
+			"date.time",
+			"date",
+			"timezone",
+			".gl-getqualitytalent-hero #play-header-video--talent h1",
+			".et_pb_fullwidth_header_0.et_pb_fullwidth_header .et_pb_fullwidth_header_subhead",
+			"22px !important",
+			".gl-homepage-hero .et_pb_fullwidth_header_0 .header-content h1, .gl-homepage-hero .et_pb_fullwidth_header_1 .header-content h1, .gl-video-hero .et_pb_fullwidth_header_0 .header-content h1, .gl-video-hero .et_pb_fullwidth_header_1 .header-content h1",
+			".gl-getqualitytalent-hero #play-header-video--talent .fa-play-circle-o",
+			".type-post .et_pb_text_30 h1",
+			".et_pb_blog_grid .et_pb_post .post-meta",
+			"gorilla_loadmore_button",
+			".et_pb_blog_grid .et_pb_post .post-meta",
+			".type-post .et_pb_text_30 h1",
+			"// The customizer requires postMessage and CORS (if the site is cross domain)",
+			"/body",
+			"item",
+			"getCu",
+			"blog",
+			"in",
+			"Article by",
+			"artic",
+			"arti",
+			"coauthors_posts_links",
+			"article",
+			"et_pb_get_the_author_posts_link",
+			"function et_pb_get_the_author_posts_link",
+			"the_author_posts_link()",
+			"the_author_posts_link",
+			"Article by",
+			"play-header-video--home",
+			"file",
+			"fiel",
+			"#post-232 .et_pb_section_3 .et_animated{",
+			"et-pb-arrow-prev",
+			"home",
+			"et_pb_slide_image",
+			".et_pb_slide_image img",
+			".et_pb_slide:first-child .et_pb_slide_image img",
+			"leve",
+			".home .et_pb_section_4",
+			"@media only screen and (max-width: 980px)\nstyle.css?ver=3.0.82:1558\n.home .et_pb_section_4",
+			"et_pb_section_5",
+			".et_pb_testimonial_meta",
+			".et_pb_testimonial_0.et_pb_testimonial .et_pb_testimonial_meta",
+			"et_pb_testimonial_meta",
+			"gform_submit_button_",
+			"submit",
+			"gform_submit_button_3",
+			"FaktPro",
+			"blog",
+			"gf_submitting_7",
+			"hs-button",
+			"hs-button primary large",
+			"gform_submit_button_5",
+			"module",
+			".email-subscribe input",
+			"input_5_1",
+			"404",
+			"media",
+			"et_pb_section_5",
+			"homepage",
+			".et_pb_column .et_pb_row_inner, .et_pb_row",
+			".page-comments-title, .comment-reply-title",
+			"#comment-wrap",
+			".comment-form .form-submit .et_pb_button",
+			"form-comment-",
+			"form-comment-label",
+			".comment-notes, .form-comment-label, .form-comment-required",
+			"fak",
+			"comment-reply-title",
+			".gl-comments-wrap-header span"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"--",
+			"-",
+			"../../",
+			"relays_filter_json_block",
+			"relays_filter_json",
+			"<?php print ",
+			"",
+			"<?php print ",
+			"cfp",
+			"penn",
+			"cd-drupal-fba-prod.slabs-cloud.com",
+			"",
+			"fba_"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/AppBundle/Controller/DefaultController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3035,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								375,
+								375
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Library/WebServer/Documents/symfony/udemy/angular/src/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 354,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								314,
+								314
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/AppBundle/Controller/TaskController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7631,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3336,
+								3336
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4806.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Library/WebServer/Documents/symfony/udemy/angular/src/app/views/login.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 704,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								704,
+								704
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Library/WebServer/Documents/symfony/udemy/angular/src/assets/css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								108,
+								108
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Library/WebServer/Documents/symfony/udemy/angular/src/app/components/login.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 564,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								557,
+								557
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Library/WebServer/Documents/symfony/udemy/angular/src/app/app.component.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1608,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20,
+								20
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 48.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "udemy_symfony_angular.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"oa",
+				"oas-wcc/config/initializers/oas_api.rb"
+			],
+			[
+				".git",
+				"bio_tesis/puphpet/puppet/modules/apache/.gitignore"
+			],
+			[
+				".gi",
+				"drupal-project/backend/project/.gitignore"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 692.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 216.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

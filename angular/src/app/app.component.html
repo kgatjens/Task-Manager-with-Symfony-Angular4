@@ -1,0 +1,59 @@
+<header id="header">
+  <div class="navbar navbar-default">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-extended="false">
+        <span class="sr-only">Toggle</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <!-- logo -->
+      <a class="navbar-brand" [routerLink]="['/']">
+        <img id="logo" src="./assets/img/logo.png" height="35px">
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="nav navbar-nav">
+        <li>
+          <a [routerLink]="['/']">
+            <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+            Home
+          </a>
+        </li>
+        <li>
+          <a [routerLink]="['/task-new']" *ngIf="identity && identity.sub">
+            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+            New Task
+          </a>
+        </li>
+        
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right" *ngIf="!identity">
+        <li><a [routerLink]="['/login']">Login</a></li>
+        <li><a [routerLink]="['/register']">Register</a></li>
+        
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right" *ngIf="identity && identity.sub">
+      <li>
+          <a [routerLink]="['/user-edit']" >
+            <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+            Config
+          </a>
+        </li>
+        <li>
+          <a [routerLink]="['/login',1]" >
+            <span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>
+            Logout
+          </a>
+        </li>
+        </ul>
+    </div>
+
+  </div>
+</header>  
+
+  <router-outlet></router-outlet>
