@@ -25,40 +25,48 @@ Those are the services available for you:
 
 **Login - http://127.0.0.1/task_app/symfony/web/app_dev.php/login :: type POST**
 Body:
+
 *key = json
 value = {"email":"admin@admin.com","password":"admin"}
 this will generate a token, that will be required for all the authorizations validations*
 
 **New user - http://127.0.0.1/task_app/symfony/web/app_dev.php/user/new  :: type POST**
 Body:
+
 *key = json | value = {"name":"admin55","surname":"admin55","email":"admin55@admin55.com","password":"admin55"}*
 
 **Edit user - http://127.0.0.1/task_app/symfony/web/app_dev.php/user/edit  :: type POST**
 Body:
+
 *key = json | value = {"name":"admin","surname":"admin","email":"admin@admin.com", "password":"admin"}
 key = authorization | value = eyJ0eXAi... (token returned by login)*
 
 **Task list - http://127.0.0.1/task_app/symfony/web/app_dev.php/task/list  :: type POST**
 Body:
+
 *key = authorization | value = eyJ0eXAi... (token returned by login)*
 
 **New Task - http://127.0.0.1/task_app/symfony/web/app_dev.php/task/new  :: type POST**
 Body:
+
 *key = json | value = {"title":"title3","description":"description2","status":"new"}
 key = authorization | value = eyJ0eXAi... (token returned by login)*
 
 **Task Detail - http://127.0.0.1/task_app/symfony/web/app_dev.php/task/id/33  :: type POST**
 Body:
+
 *key = authorization | value = eyJ0eXAi... (token returned by login)*
 
 **Search Task - http://127.0.0.1/task_app/symfony/web/app_dev.php/task/search  :: type POST**
 Body:
+
 *key = filter | value = 1 ( task type id = 1 = New, 2 = TODO, 3 = Finished)
 key = order | value = 0 (0,1)
 key = authorization | value = eyJ0eXAi... (token returned by login)*
 
 **Task Remove - http://127.0.0.1/task_app/symfony/web/app_dev.php/task/remove/3  :: type POST**
 Body:
+
 *key = authorization | value = eyJ0eXAi... (token returned by login)*
 
 
