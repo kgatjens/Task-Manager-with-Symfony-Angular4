@@ -17,31 +17,36 @@ export class TaskService{
 	}
 
 	create(token, task){
-		let json 	= JSON.stringify(task);
-		let params 	= "json="+json+"&authorization="+token;
-		let headers = new Headers({'Content-Type':'application/x-www-form-urlencoded'}); 
+		const json 	= JSON.stringify(task);
+		const params 	= `json=${json}&authorization=${token}`;
+		//const params 	= "json="+json+"&authorization="+token;
+		const headers = new Headers({'Content-Type':'application/x-www-form-urlencoded'}); 
 		
-		return this._http.post(this.url+'/task/new',params, {headers:headers})
+		//return this._http.post(this.url+'/task/new',params, {headers:headers})
+		return this._http.post(`${this.url}/task/new`,params, {headers:headers})
+
 						 .map(res=>res.json());
 	}
 
 	getTasks(token, page = null){
-		let params = "authorization="+token;
-		let header = new Headers({'Content-Type':'application/x-www-form-urlencoded'});
+		//let params = "authorization="+token;
+		const params = `authorization=${token}`;
+		const header = new Headers({'Content-Type':'application/x-www-form-urlencoded'});
 
 		if(page == null){
 			page=1;
 		}
 
-		return this._http.post(this.url+'/task/list?page='+page,params, {headers:header})
+		console.log(`${this.url}/task/list?page=${page}`);
+		return this._http.post(`${this.url}/task/list?page=${page}`,params, {headers:header})
 						 .map(res=>res.json());
 	}
 
 	getTask(token, id){
-		let params = "authorization="+token;
-		let header = new Headers({'Content-Type':'application/x-www-form-urlencoded'});
+		const params = `authorization=${token}`;
+		const header = new Headers({'Content-Type':'application/x-www-form-urlencoded'});
 
-		return this._http.post(this.url+'/task/detail/'+id,params, {headers:header})
+		return this._http.post(`${this.url}/task/detail/${id}`,params, {headers:header})
 						 .map(res=>res.json());
 	}
 
