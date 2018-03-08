@@ -2,12 +2,12 @@
 	<h3>{{title}}</h3>
 
 
-	<div class="alert alert-success" *ngIf="status == 'success'">
+	<div class="alert alert-success" *ngIf="status === 'success'">
 		Registrated succesfully
 		<a [routerLink]="['/login']">Login</a>
 	</div>
 
-	<div class="alert alert-danger" *ngIf="status == 'error'">
+	<div class="alert alert-danger" *ngIf="status === 'error'">
 		Registration error!
 	</div>
 

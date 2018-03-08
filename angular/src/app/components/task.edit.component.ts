@@ -48,6 +48,7 @@ export class TaskEditComponent implements OnInit{
 	getTask(){
 		this.loading = 'show';
 		this._route.params.forEach((params: Params) => {
+			console.log(params);
 			let id = +params['id'];
 
 			this._taskService.getTask(this.token, id).subscribe(

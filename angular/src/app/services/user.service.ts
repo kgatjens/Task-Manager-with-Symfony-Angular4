@@ -16,63 +16,52 @@ export class UserService{
 	}
 
 	signup(user_to_login){
-       let json = JSON.stringify(user_to_login);
-       let params = "json="+json;
-       let headers = new Headers({'Content-Type':'application/x-www-form-urlencoded'});
+       const json = JSON.stringify(user_to_login);
+       const params = `json=${json}`;
+       const headers = new Headers({'Content-Type':'application/x-www-form-urlencoded'});
 
-       return this._http.post(this.url+'/login',params,{headers: headers})
+       return this._http.post(`${this.url}/login`,params,{headers: headers})
                   .map(res=>res.json());
 	}
 
 	getIdentity(){
-		let identity = JSON.parse(localStorage.getItem('identity'));
-
-		if(identity != "undefined"){
-   			this.identity = identity;
-		}else{
-            this.identity = null;
-		}
+		this.identity = JSON.parse(localStorage.getItem('identity'));
 
 		return this.identity;
 	}
 
 	getToken(){
-		let token = JSON.parse(localStorage.getItem('token'));
-
-		if(token != "undefined"){
-   			this.token = token;
-		}else{
-            this.token = null;
-		}
+		this.token = JSON.parse(localStorage.getItem('token'));
 
 		return this.token;
 	}
 
 	register(user_to_register){
-		let json 	= JSON.stringify(user_to_register);
-		let params 	= "json="+json;
-		let headers = new Headers({'Content-Type':'application/x-www-form-urlencoded'});
+		const json 	= JSON.stringify(user_to_register);
+		const params = `json=${json}`;
+		const headers = new Headers({'Content-Type':'application/x-www-form-urlencoded'});
 
-		return this._http.post(this.url+'/user/new',params,{headers:headers})
+		return this._http.post(`${this.url}/user/new`,params,{headers:headers})
 						 .map(res=>res.json());
 
 	}
 
 	update_user(user_to_update){	
-		let json 	= JSON.stringify(user_to_update);
-		let params 	= "json="+json+'&authorization='+this.getToken();
-		let headers = new Headers({'Content-Type':'application/x-www-form-urlencoded'});
+		const json 	= JSON.stringify(user_to_update);
+		const token = this.getToken();
+		const params = `json=${json}&authorization=${token}`;
+		
+		const headers = new Headers({'Content-Type':'application/x-www-form-urlencoded'});
 
-		return this._http.post(this.url+'/user/edit', params, {headers:headers})
+		return this._http.post(`${this.url}/user/edit`, params, {headers:headers})
 						 .map(res=>res.json());
-
 	}
 
 	getTask(token,id){
-		let params 	= "authorization="+token;
-		let headers = new Headers({'Content-Type':'application/x-www-form-urlencoded'});
+		const params  = `authorization=${token}`;
+		const headers = new Headers({'Content-Type':'application/x-www-form-urlencoded'});
 
-		return this._http.post(this.url+'/task/detail/'+id, params, {headers: headers})
+		return this._http.post(`${this.url}/task/detail/${id}`, params, {headers: headers})
 			.map(res => res.json());
 
 	}

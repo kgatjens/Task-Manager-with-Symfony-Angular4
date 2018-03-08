@@ -1,17 +1,17 @@
 <div class="col-md-12">
 	
-	<div class="loader" *ngIf="loading == 'show'">
+	<div class="loader" *ngIf="loading === 'show'">
 		<img src="assets/img/loader.gif" />
 	</div>
 
 	<div class="col-md-12" ng-if="!loading || task">
 		<h3>{{page_title}}</h3>
 
-		<div class="alert alert-success" *ngIf="status_task == 'success'">
+		<div class="alert alert-success" *ngIf="status_task === 'success'">
 			Task Created
 		</div>
 
-		<div class="alert alert-danger" *ngIf="status_task == 'error'">
+		<div class="alert alert-danger" *ngIf="status_task === 'error'">
 			Task was not created!
 		</div>
 

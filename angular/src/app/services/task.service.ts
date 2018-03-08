@@ -51,24 +51,24 @@ export class TaskService{
 	}
 
 	update(token, task, id){
-		let json 	= JSON.stringify(task);
-		let params 	= "json="+json+"&authorization="+token;
-		let headers = new Headers({'Content-Type':'application/x-www-form-urlencoded'}); 
+		const json 	= JSON.stringify(task);
+		const params 	= `json=${json}&authorization=${token}`;
+		const headers = new Headers({'Content-Type':'application/x-www-form-urlencoded'}); 
 
-		return this._http.post(this.url+'/task/edit/'+id, params, {headers:headers})
+		return this._http.post(`${this.url}/task/edit/${id}`, params, {headers:headers})
 						 .map(res=>res.json());
 	}
 
 	search(token, search = null, filter = null, order = null){
-		let params = "authorization="+token+"&filter="+filter+"&order="+order;
-		let headers = new Headers({'Content-Type':'application/x-www-form-urlencoded'}); 
+		const params = `authorization=${token}&filter=${filter}&order=${order}`;
+		const headers = new Headers({'Content-Type':'application/x-www-form-urlencoded'}); 
 
 
-		let url:string;
+		let url;
 		if(search == null){
-			url = this.url + '/task/search';
+			url = `${this.url}/task/search`;
 		}else{
-			url = this.url + '/task/search/'+search;
+			url = `${this.url}/task/search/${search}`;
 		}
 
 		return this._http.post(url, params, {headers: headers})
@@ -76,10 +76,10 @@ export class TaskService{
 	}
 
 	deleteTask(token, id){
-		let params = "authorization="+token;
-		let header = new Headers({'Content-Type':'application/x-www-form-urlencoded'});
+		const params = `authorization=${token}`;
+		const header = new Headers({'Content-Type':'application/x-www-form-urlencoded'});
 
-		return this._http.post(this.url+'/task/remove/'+id,params, {headers:header})
+		return this._http.post(`${this.url}/task/remove/${id}`,params, {headers:header})
 						 .map(res=>res.json());
 	}
 }

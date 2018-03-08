@@ -53,13 +53,13 @@
 				<tr *ngFor="let task of tasks" class="task-item">
 					<td>
 						<h4>
-							<span class="label label-lg label-success" *ngIf="task.status == 'finished'">
+							<span class="label label-lg label-success" *ngIf="task.status === 'finished'">
 								Finished
 							</span>
-							<span class="label label-lg label-warning" *ngIf="task.status == 'todo'">
+							<span class="label label-lg label-warning" *ngIf="task.status === 'todo'">
 								TODO
 							</span>
-							<span class="label label-lg label-primary" *ngIf="task.status == 'new'">
+							<span class="label label-lg label-primary" *ngIf="task.status ==+ 'new'">
 								New
 							</span>
 						</h4>

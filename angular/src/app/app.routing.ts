@@ -19,7 +19,9 @@ const appRoutes: Routes = [
 	{path:'user-edit',component	: UserEditComponent},
 	{path:'task-new',component	: TaskNewComponent},
 	{path:'task/:id',component	: TaskDetailComponent},
+	{path:'index/:page/task/:id',component	: TaskDetailComponent},
 	{path:'task-edit/:id',component	: TaskEditComponent},
+	{path:'index/:page/task-edit/:id',component	: TaskEditComponent},
 	{path:'**',component		: LoginComponent}
 ];
 
